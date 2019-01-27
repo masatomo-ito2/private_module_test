@@ -6,6 +6,6 @@ module "masademo" {
 	count = "${var.num_of_files}"
 }
 
-output {
+output "filename" {
 	value = "${module.masademo.filenames}"
 }	
