@@ -1,3 +1,7 @@
+variable "num_of_files" {
+	default = "1"
+}
+
 module "masademo" {
   source  = "ptfe.masa.hashidemos.io/org1/masademo/local"
   version = "0.1.1"
